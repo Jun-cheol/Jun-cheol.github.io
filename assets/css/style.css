@@ -1880,3 +1880,23 @@ textarea.form-input::-webkit-resizer { display: none; }
   .timeline-text { max-width: 700px; }
 
 }
+
+/* AC */
+.AClist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+.AClist li {
+  margin-top: 12px;
+  padding-left: 1rem;
+  text-indent: -0.75rem;
+  /* margin-bottom: 5px; */
+}
+
+.AClist li::before {
+  content: '✎ '; 
+  color:hsl(35, 100%, 68%)
+}
